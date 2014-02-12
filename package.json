@@ -1,0 +1,22 @@
+{
+  "name": "requirejs",
+  "version": "0.0.1",
+  "author": "Artur Kania",
+  "description": "requirejs playground",
+  "scripts": {
+    "start": "node ./bin/http-server",
+    "test": ""
+  },
+  "main": "./src/index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akania/requirejs.git"
+  },
+  "dependencies" : {
+    "mocha"   :  "latest"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  }
+}
